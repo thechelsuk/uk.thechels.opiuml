@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4F1ED"/><stop offset="1" stop-color="#E9E6E2"/></linearGradient>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFA043"/><stop offset="1" stop-color="#F2701C"/></linearGradient>
+    <clipPath id="c1"><rect x="760" y="70" width="190" height="400" rx="26"/></clipPath>
+    <clipPath id="c2"><rect x="985" y="130" width="190" height="400" rx="26"/></clipPath>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <image href="images/opiuml-app-icon.png" x="70" y="70" width="104" height="104"/>
+  <text x="192" y="140" font-family="Helvetica Neue, Arial, sans-serif" font-size="46" font-weight="800" fill="#111" letter-spacing="-1.5">Opiuml</text>
+  <text x="70" y="290" font-family="Helvetica Neue, Arial, sans-serif" font-size="68" font-weight="700" fill="#111" letter-spacing="-3">Triage your podcasts.</text>
+  <text x="70" y="370" font-family="Georgia, serif" font-size="68" font-style="italic" fill="url(#hl)" letter-spacing="-2">Play what matters.</text>
+  <text x="70" y="450" font-family="Helvetica Neue, Arial, sans-serif" font-size="26" fill="#6E6E73">Inbox, Queue, Watch and CarPlay. Private by design.</text>
+  <rect x="70" y="500" width="290" height="52" rx="26" fill="#111"/>
+  <text x="215" y="534" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#fff">Coming soon to iPhone</text>
+  <g clip-path="url(#c1)"><image href="images/screen-inbox.jpg" x="745" y="55" width="220" height="468" preserveAspectRatio="xMidYMid slice"/></g>
+  <g clip-path="url(#c2)"><image href="images/screen-player.jpg" x="970" y="115" width="220" height="468" preserveAspectRatio="xMidYMid slice"/></g>
+</svg>

@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f4f1ed" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta
+      name="description"
+      content="Opiuml is a podcast player for iPhone, iPad, Apple Watch and CarPlay. Triage new episodes in your Inbox, play what matters from your Queue, and keep your library private."
+    >
+    <link rel="canonical" href="https://opiuml.thechels.uk/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Opiuml">
+    <meta property="og:url" content="https://opiuml.thechels.uk/">
+    <meta property="og:title" content="Opiuml: Triage your podcasts. Play what matters.">
+    <meta
+      property="og:description"
+      content="A podcast player built around an Inbox and a Queue, with per-podcast rules, chapters, video, Apple Watch and CarPlay. No accounts, no tracking."
+    >
+    <meta property="og:image" content="https://opiuml.thechels.uk/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta
+      property="og:image:alt"
+      content="Opiuml showing the Inbox and Now Playing screens on an iPhone"
+    >
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Opiuml: Triage your podcasts. Play what matters.">
+    <meta
+      name="twitter:description"
+      content="A podcast player built around an Inbox and a Queue. Private by design."
+    >
+    <meta name="twitter:image" content="https://opiuml.thechels.uk/images/og-image.png">
+    <meta
+      name="twitter:image:alt"
+      content="Opiuml showing the Inbox and Now Playing screens on an iPhone"
+    >
+    <title>Opiuml: Podcast Player</title>
+    <link rel="icon" href="images/opiuml-app-icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/opiuml-app-icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Opiuml",
+        "operatingSystem": "iOS 18 or later, iPadOS 18 or later, watchOS 11 or later",
+        "applicationCategory": "MultimediaApplication",
+        "url": "https://opiuml.thechels.uk/",
+        "image": "https://opiuml.thechels.uk/images/opiuml-app-icon.png",
+        "screenshot": [
+          "https://opiuml.thechels.uk/images/screen-inbox.jpg",
+          "https://opiuml.thechels.uk/images/screen-queue.jpg",
+          "https://opiuml.thechels.uk/images/screen-player.jpg"
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "29.99",
+          "priceCurrency": "GBP",
+          "description": "£29.99 a year subscription, with a one-week free trial for new subscribers."
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Opiuml home">
+        <img src="images/opiuml-app-icon.png" alt="" width="38" height="38">
+        <span>Opiuml</span>
+      </a>
+      <nav class="header-links" aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#features">Features</a>
+        <a href="https://thechels.uk/app/privacy">Privacy</a>
+        <span class="header-cta">Coming soon</span>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Podcasts for iPhone, iPad, Watch and CarPlay</p>
+          <h1 id="hero-title"><span class="hero-title-line">Triage your podcasts.</span><span class="headline-accent">Play what matters.</span></h1>
+          <p class="hero-description">
+            Opiuml is built around two lists: an Inbox for everything new, and a Queue for what you
+            actually want to hear. The rest quietly tidies itself away.
+          </p>
+          <div class="hero-actions">
+            <!-- TODO: when the app is live, wrap this in <a class="app-store-button" href="APP STORE URL"> and drop the "coming-soon" class and label. -->
+            <div class="coming-soon">
+              <img src="images/app-store-badge.svg" alt="App Store badge" width="120" height="40">
+              <span class="coming-soon-label">Coming soon to the App Store</span>
+            </div>
+            <span class="hero-note">£29.99 a year · 1-week free trial</span>
+          </div>
+        </div>
+
+        <figure class="hero-art">
+          <div class="hero-phones">
+            <img class="shot shot-back" src="images/screen-inbox.jpg" alt="The Opiuml Inbox, with swipe actions to play next, play last, archive or star" width="600" height="1304">
+            <img class="shot shot-front" src="images/screen-player.jpg" alt="The Opiuml Now Playing screen with chapter marks, speed and sleep timer" width="600" height="1304">
+          </div>
+        </figure>
+      </section>
+
+      <section class="triage section-wrap" id="how-it-works" aria-labelledby="triage-title">
+        <div class="section-intro">
+          <p class="eyebrow">Two lists. One decision.</p>
+          <h2 id="triage-title">Inbox in.<br><span>Queue out.</span></h2>
+          <p>New episodes arrive in the Inbox, or go straight to the top or bottom of your Queue.</p>
+        </div>
+        <div class="split">
+          <figure class="split-card">
+            <img class="shot" src="images/screen-inbox.jpg" alt="Opiuml Inbox with 14 new episodes" width="600" height="1304" loading="lazy">
+            <figcaption>
+              <span class="feature-number">01 / INBOX</span>
+              <h3>Swipe to decide.</h3>
+              <p>Play next, play last or archive. Filter by audio, video or YouTube, and get through the pile in minutes.</p>
+            </figcaption>
+          </figure>
+          <figure class="split-card">
+            <img class="shot" src="images/screen-queue.jpg" alt="Opiuml Queue showing seven episodes and the time left" width="600" height="1304" loading="lazy">
+            <figcaption>
+              <span class="feature-number">02 / QUEUE</span>
+              <h3>Your play order.</h3>
+              <p>Drag to reorder. Serial shows stay in story order, and you can see how long the lot will take at your speeds.</p>
+            </figcaption>
+          </figure>
+          <figure class="split-card">
+            <img class="shot" src="images/screen-player.jpg" alt="Opiuml Now Playing with speed, sleep timer and show notes" width="600" height="1304" loading="lazy">
+            <figcaption>
+              <span class="feature-number">03 / NOW PLAYING</span>
+              <h3>Made for listening.</h3>
+              <p>Big artwork, 15 and 30 second skips, speed, sleep timer and show notes, all within reach.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="features section-wrap" id="features" aria-labelledby="features-title">
+        <div class="section-intro">
+          <p class="eyebrow">Everything a podcast player should do</p>
+          <h2 id="features-title">Built for <span>big libraries.</span></h2>
+          <p>Plus the details that make listening better.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">≡</span>
+            <h3>Chapters and show notes</h3>
+            <p>Chapters, artwork and show notes, with chapter skipping on the lock screen.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">▶</span>
+            <h3>Video and YouTube</h3>
+            <p>Video podcasts, YouTube channels via RSS, and your own audio files, all in one place.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">⌚︎</span>
+            <h3>Apple Watch</h3>
+            <p>Send episodes to your wrist and listen without your phone.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">⌁</span>
+            <h3>CarPlay</h3>
+            <p>Your Queue, Inbox and Library on the dashboard.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">⇅</span>
+            <h3>Groups and OPML</h3>
+            <p>Organise shows into groups, import and export OPML, and spot podcasts that have gone quiet.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">⚡︎</span>
+            <h3>Shortcuts and Siri</h3>
+            <p>Siri Shortcuts and deep links make Opiuml easy to automate.</p>
+          </article>
+        <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">⚙︎</span>
+            <h3>Per-podcast rules</h3>
+            <p>Choose where new episodes go, how many to keep, and set speed and skip intervals for each show.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">▥</span>
+            <h3>Stats and history</h3>
+            <p>See time listened, time saved and your top shows, with your listening history one tap away.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="privacy-section" aria-labelledby="privacy-title">
+        <div class="privacy-inner">
+          <div class="privacy-copy">
+            <p class="eyebrow">Private by design</p>
+            <h2 id="privacy-title">Your library stays <span>yours.</span></h2>
+            <p>No accounts, no analytics, no tracking. Your library lives on your device and syncs through your own iCloud.</p>
+            <a class="text-link" href="https://thechels.uk/app/privacy">Read our privacy policy <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-cta" aria-labelledby="closing-title">
+        <p class="eyebrow">Opiuml for iPhone, iPad and Apple Watch</p>
+        <h2 id="closing-title">Triage your podcasts.<br><span>Play what matters.</span></h2>
+        <p>£29.99 a year, with a one-week free trial for new subscribers.</p>
+        <!-- TODO: when the app is live, wrap this in <a class="app-store-button" href="APP STORE URL"> and drop the "coming-soon" class and label. -->
+        <div class="coming-soon coming-soon-light">
+          <img src="images/app-store-badge.svg" alt="App Store badge" width="120" height="40">
+          <span class="coming-soon-label">Coming soon to the App Store</span>
+        </div>
+        <span class="closing-footnote">iPhone · iPad · Apple Watch · CarPlay · requires iOS 18 or later</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#top">
+        <img src="images/opiuml-app-icon.png" alt="" width="32" height="32">
+        <span>Opiuml</span>
+      </a>
+      <span class="footer-caption">Triage your podcasts. Play what matters.</span>
+      <div class="footer-links">
+        <a href="https://thechels.uk/app/privacy">Privacy</a>
+        <a href="https://thechels.uk/projects/opiuml">About</a>
+      </div>
+      <span class="copyright">© 2026 Opiuml</span>
+    </footer>
+  </body>
+</html>
