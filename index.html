@@ -6,13 +6,13 @@
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#f4f1ed" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
-    <meta
-      name="description"
-      content="Opiuml is a podcast player for iPhone, iPad, Apple Watch and CarPlay. Triage new episodes in your Inbox, play what matters from your Queue, and keep your library private."
-    >
+    <meta name="description" content="Opiuml is a podcast player for iPhone, iPad, Apple Watch and CarPlay. Triage new episodes in an Inbox, play what matters from your Queue. Private by design.">
+    <meta name="author" content="thechelsuk">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <link rel="canonical" href="https://opiuml.thechels.uk/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Opiuml">
+    <meta property="og:locale" content="en_GB">
     <meta property="og:url" content="https://opiuml.thechels.uk/">
     <meta property="og:title" content="Opiuml: Triage your podcasts. Play what matters.">
     <meta
@@ -44,23 +44,114 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "MobileApplication",
-        "name": "Opiuml",
-        "operatingSystem": "iOS 18 or later, iPadOS 18 or later, watchOS 11 or later",
-        "applicationCategory": "MultimediaApplication",
-        "url": "https://opiuml.thechels.uk/",
-        "image": "https://opiuml.thechels.uk/images/opiuml-app-icon.png",
-        "screenshot": [
-          "https://opiuml.thechels.uk/images/screen-inbox.jpg",
-          "https://opiuml.thechels.uk/images/screen-queue.jpg",
-          "https://opiuml.thechels.uk/images/screen-player.jpg"
-        ],
-        "offers": {
-          "@type": "Offer",
-          "price": "29.99",
-          "priceCurrency": "GBP",
-          "description": "£29.99 a year subscription, with a one-week free trial for new subscribers."
-        }
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://thechels.uk/#person",
+            "name": "Mat Benfield",
+            "alternateName": "thechelsuk",
+            "url": "https://thechels.uk/",
+            "sameAs": [
+              "https://links.thechels.uk/",
+              "https://github.com/thechelsuk",
+              "https://apps.apple.com/gb/developer/mat-benfield/id1818791310"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://opiuml.thechels.uk/#website",
+            "url": "https://opiuml.thechels.uk/",
+            "name": "Opiuml",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://thechels.uk/#person"
+            }
+          },
+          {
+            "@type": "MobileApplication",
+            "@id": "https://opiuml.thechels.uk/#app",
+            "name": "Opiuml",
+            "operatingSystem": "iOS 18 or later, iPadOS 18 or later, watchOS 11 or later",
+            "applicationCategory": "MultimediaApplication",
+            "url": "https://opiuml.thechels.uk/",
+            "image": "https://opiuml.thechels.uk/images/opiuml-app-icon.png",
+            "screenshot": [
+              "https://opiuml.thechels.uk/images/screen-inbox.jpg",
+              "https://opiuml.thechels.uk/images/screen-queue.jpg",
+              "https://opiuml.thechels.uk/images/screen-player.jpg"
+            ],
+            "offers": {
+              "@type": "Offer",
+              "price": "29.99",
+              "priceCurrency": "GBP",
+              "description": "£29.99 a year subscription, with a one-week free trial for new subscribers."
+            },
+            "description": "Opiuml is a podcast player for iPhone, iPad, Apple Watch and CarPlay, built around two lists: an Inbox for every new episode and a Queue for what you actually want to hear.",
+            "inLanguage": "en-GB",
+            "featureList": [
+              "Inbox and Queue: swipe to play next, play last or archive",
+              "Per-podcast rules for new episodes, speed and skip intervals",
+              "Chapters, artwork and show notes",
+              "Video podcasts, YouTube channels via RSS and your own audio files",
+              "Apple Watch and CarPlay",
+              "Groups, OPML import and export",
+              "Listening history and stats",
+              "Siri Shortcuts and deep links"
+            ],
+            "author": {
+              "@id": "https://thechels.uk/#person"
+            },
+            "publisher": {
+              "@id": "https://thechels.uk/#person"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://opiuml.thechels.uk/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is Opiuml a good alternative to Overcast, Pocket Casts or Apple Podcasts?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "If you follow lots of shows and want to decide what gets played instead of drowning in a feed, yes. The Inbox and Queue workflow makes podcast triage fast, and per-podcast rules automate the rest."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I move my podcasts from another app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Export an OPML file from your current podcast player and import it into Opiuml."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does Opiuml play YouTube channels?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Add a YouTube channel by its RSS feed and its videos appear alongside your podcasts."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does it cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "£29.99 a year, with a one-week free trial for new subscribers."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "When is it available?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Opiuml is coming soon to the App Store for iPhone, iPad, Apple Watch and CarPlay."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -197,6 +288,35 @@
             <p>No accounts, no analytics, no tracking. Your library lives on your device and syncs through your own iCloud.</p>
             <a class="text-link" href="https://thechels.uk/app/privacy">Read our privacy policy <span aria-hidden="true">↗</span></a>
           </div>
+        </div>
+      </section>
+
+      <section class="faq section-wrap" id="faq" aria-labelledby="faq-title">
+        <div class="section-intro">
+          <p class="eyebrow">Questions</p>
+          <h2 id="faq-title">Frequently asked questions</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Is Opiuml a good alternative to Overcast, Pocket Casts or Apple Podcasts?</summary>
+            <p>If you follow lots of shows and want to decide what gets played instead of drowning in a feed, yes. The Inbox and Queue workflow makes podcast triage fast, and per-podcast rules automate the rest.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I move my podcasts from another app?</summary>
+            <p>Yes. Export an OPML file from your current podcast player and import it into Opiuml.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does Opiuml play YouTube channels?</summary>
+            <p>Yes. Add a YouTube channel by its RSS feed and its videos appear alongside your podcasts.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How much does it cost?</summary>
+            <p>£29.99 a year, with a one-week free trial for new subscribers.</p>
+          </details>
+          <details class="faq-item">
+            <summary>When is it available?</summary>
+            <p>Opiuml is coming soon to the App Store for iPhone, iPad, Apple Watch and CarPlay.</p>
+          </details>
         </div>
       </section>
 
