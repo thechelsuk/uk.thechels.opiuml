@@ -105,6 +105,7 @@ img {
 
 .header-cta {
   padding: 11px 17px;
+  font-weight: 600;
   border: 1px solid var(--line);
   border-radius: 999px;
   color: var(--ink);
@@ -191,35 +192,26 @@ img {
   gap: 17px;
 }
 
-.coming-soon {
+.app-store-button {
   display: inline-flex;
-  align-items: center;
-  gap: 12px;
+  border-radius: 8px;
+  transition: transform 0.15s ease, opacity 0.15s ease;
 }
 
-.coming-soon img {
+.app-store-button img {
   width: 120px;
   height: 40px;
   display: block;
-  opacity: 0.55;
-  filter: grayscale(1);
 }
 
-@media (prefers-color-scheme: dark) {
-  .coming-soon img {
-    background: #fff;
-    border-radius: 7px;
-  }
+.app-store-button:hover {
+  transform: translateY(-1px);
+  opacity: 0.9;
 }
 
-.coming-soon-label {
-  padding: 8px 14px;
-  border-radius: 999px;
-  background: var(--accent);
-  color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.2px;
+.app-store-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .hero-note {
@@ -437,20 +429,6 @@ img {
   margin-bottom: 24px;
   color: rgba(255, 255, 255, 0.92);
   font-size: 15px;
-}
-
-.closing-cta .coming-soon {
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.closing-cta .coming-soon img {
-  opacity: 1;
-  filter: none;
-}
-
-.closing-cta .coming-soon-label {
-  background: #111;
 }
 
 .closing-footnote {

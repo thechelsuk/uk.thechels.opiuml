@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Triage your podcasts. Play what matters.</strong><br>
-  <a href="https://opiuml.thechels.uk/">opiuml.thechels.uk</a> · Coming soon to the App Store
+  <a href="https://opiuml.thechels.uk/">opiuml.thechels.uk</a> · <a href="https://apps.apple.com/gb/app/opiuml-podcast-player/id6823693348">Download on the App Store</a>
 </p>
 
 ---
@@ -23,11 +23,11 @@ No accounts, no ads, no analytics and no tracking. Your podcast library lives on
 
 ## Inbox in. Queue out.
 
-- **Inbox: swipe to decide.** Play next, play last or archive. Filter by audio, video or YouTube and clear the pile in minutes.
+- **Inbox: swipe to decide.** Queue next, queue last or archive. Filter by audio, video or YouTube and clear the pile in minutes.
 - **Queue: your play order.** Drag to reorder. Serial shows stay in story order, and you can see how long the whole queue will take at your playback speeds.
 - **Now Playing: made for listening.** Big artwork, 15- and 30-second skips, variable speed, a sleep timer and show notes, all within reach.
 
-New episodes can skip the Inbox and go straight to the top or bottom of your Queue, so daily news shows never pile up.
+New episodes can skip the Inbox and go straight into your Queue to play next or last, so daily news shows never pile up.
 
 ## Features
 
@@ -48,7 +48,7 @@ Opiuml has no sign-up and collects nothing. There are no third-party analytics o
 
 ## Pricing and requirements
 
-- **£29.99 a year**, with a **one-week free trial** for new subscribers
+- **Free to download**, then **£29.99 a year** after a **one-week free trial** for new subscribers
 - iPhone and iPad with iOS / iPadOS 18 or later
 - Apple Watch with watchOS 11 or later
 - CarPlay
@@ -64,8 +64,8 @@ Yes. Export an OPML file from your current podcast player and import it into Opi
 **Does Opiuml play YouTube channels?**
 Yes. Add a YouTube channel by its RSS feed and its videos appear alongside your podcasts.
 
-**When is it available?**
-Opiuml is coming soon to the App Store. Visit [opiuml.thechels.uk](https://opiuml.thechels.uk/) for launch details.
+**Where can I get it?**
+Opiuml is [available now on the App Store](https://apps.apple.com/gb/app/opiuml-podcast-player/id6823693348) for iPhone, iPad, Apple Watch and CarPlay.
 
 ---
 

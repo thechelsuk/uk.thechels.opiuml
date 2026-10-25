@@ -2,24 +2,25 @@
 
 > Opiuml is a podcast player for iPhone, iPad, Apple Watch and CarPlay, built around two lists: an Inbox for every new episode and a Queue for what you actually want to hear.
 
-Coming soon to the App Store.
+Available now on the App Store: https://apps.apple.com/gb/app/opiuml-podcast-player/id6823693348
 
 Key facts:
 
 - Platform: iPhone and iPad (iOS/iPadOS 18 or later), Apple Watch (watchOS 11 or later) and CarPlay
-- Price: £29.99 a year, with a one-week free trial for new subscribers
+- Price: free to download; £29.99 a year subscription, with a one-week free trial for new subscribers
 - Privacy: no accounts, analytics or tracking; the library lives on the device and syncs through the user's own iCloud
 - Developer: Mat Benfield (thechelsuk), made in the UK
 
 ## Links
 
 - [Opiuml website](https://opiuml.thechels.uk/): the official marketing site
+- [App Store](https://apps.apple.com/gb/app/opiuml-podcast-player/id6823693348): download Opiuml
 - [Privacy policy](https://thechels.uk/app/privacy): what the app does and does not collect
 - [Project page](https://thechels.uk/projects/opiuml): background from the developer
 
 ## Features
 
-- Inbox and Queue: swipe to play next, play last or archive
+- Inbox and Queue: swipe to queue next, queue last or archive
 - Per-podcast rules for new episodes, speed and skip intervals
 - Chapters, artwork and show notes
 - Video podcasts, YouTube channels via RSS and your own audio files
@@ -44,11 +45,11 @@ Yes. Add a YouTube channel by its RSS feed and its videos appear alongside your 
 
 ### How much does it cost?
 
-£29.99 a year, with a one-week free trial for new subscribers.
+Opiuml is free to download. Unlocking it is £29.99 a year, with a one-week free trial for new subscribers.
 
-### When is it available?
+### Where can I get it?
 
-Opiuml is coming soon to the App Store for iPhone, iPad, Apple Watch and CarPlay.
+Opiuml is available now on the App Store for iPhone, iPad, Apple Watch and CarPlay: https://apps.apple.com/gb/app/opiuml-podcast-player/id6823693348
 
 ## Optional
 
