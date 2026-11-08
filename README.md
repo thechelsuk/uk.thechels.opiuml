@@ -48,7 +48,7 @@ Opiuml has no sign-up and collects nothing. There are no third-party analytics o
 
 ## Pricing and requirements
 
-- **Free to download**, then **£29.99 a year** after a **one-week free trial** for new subscribers
+- **Free to download**, then **£17.99 a year** after a **one-week free trial** for new subscribers
 - iPhone and iPad with iOS / iPadOS 18 or later
 - Apple Watch with watchOS 11 or later
 - CarPlay

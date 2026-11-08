@@ -7,7 +7,7 @@ Available now on the App Store: https://apps.apple.com/gb/app/opiuml-podcast-pla
 Key facts:
 
 - Platform: iPhone and iPad (iOS/iPadOS 18 or later), Apple Watch (watchOS 11 or later) and CarPlay
-- Price: free to download; £29.99 a year subscription, with a one-week free trial for new subscribers
+- Price: free to download; £17.99 a year subscription, with a one-week free trial for new subscribers
 - Privacy: no accounts, analytics or tracking; the library lives on the device and syncs through the user's own iCloud
 - Developer: Mat Benfield (thechelsuk), made in the UK
 
@@ -45,7 +45,7 @@ Yes. Add a YouTube channel by its RSS feed and its videos appear alongside your 
 
 ### How much does it cost?
 
-Opiuml is free to download. Unlocking it is £29.99 a year, with a one-week free trial for new subscribers.
+Opiuml is free to download. Unlocking it is £17.99 a year, with a one-week free trial for new subscribers.
 
 ### Where can I get it?
 
