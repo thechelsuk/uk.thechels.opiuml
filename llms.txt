@@ -26,6 +26,7 @@ Key facts:
 - Video podcasts, YouTube channels via RSS and your own audio files
 - Apple Watch and CarPlay
 - Groups, OPML import and export
+- Find new shows: search, Apple's top charts by category, and a look at each show before you subscribe
 - Listening history and stats
 - Siri Shortcuts and deep links
 
@@ -38,6 +39,10 @@ If you follow lots of shows and want to decide what gets played instead of drown
 ### Can I move my podcasts from another app?
 
 Yes. Export an OPML file from your current podcast player and import it into Opiuml.
+
+### How do I find new podcasts?
+
+Search for any show, or browse Apple's top podcast charts for your country by category. Tap a show to see its description and recent episodes before you subscribe. No account needed.
 
 ### Does Opiuml play YouTube channels?
 
