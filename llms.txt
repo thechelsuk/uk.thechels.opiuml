@@ -56,6 +56,14 @@ Opiuml is free to download. Unlocking it is £17.99 a year, with a one-week free
 
 Opiuml is available now on the App Store for iPhone, iPad, Apple Watch and CarPlay: https://apps.apple.com/gb/app/opiuml-podcast-player/id6823693348
 
+### Found a bug or have an idea?
+
+Tell me on GitHub: [raise an issue](https://github.com/thechelsuk/uk.thechels.opiuml/issues/new/choose) and choose the form for a bug, a feature request, a question or general feedback. You'll need a free GitHub account.
+
+### Can I just email you?
+
+Yes. Email feedback@thechels.uk with Opiuml in the subject.
+
 ## Optional
 
 - [Site source on GitHub](https://github.com/thechelsuk/uk.thechels.opiuml): static HTML and CSS for this site
